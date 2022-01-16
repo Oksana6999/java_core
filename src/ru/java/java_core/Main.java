@@ -14,7 +14,7 @@ public class Main {
         Team team2 = new Team("Lol", 88, 12);
 
         Team[] t = {team, team2, team1};
-        Course[] c = {course, course1, course2};
+        Course[] c = {course, course1, course2, course3};
         Course.doIt(t);
 
 

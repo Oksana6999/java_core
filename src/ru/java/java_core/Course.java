@@ -10,11 +10,9 @@ public class Course {
     }
 
     public static void doIt(Team[] team) {
-        if (difficult < team.power) {
+        if (difficult < Team.power) {
             System.out.println("Sportsmen " + name + " is win.");
         }
-        if (difficult > team.power) {
-            System.out.println("Sportsmen " + name + " is lose.");
-        }
+        if (difficult > Team.power) System.out.println("Sportsmen " + name + " is lose.");
     }
 }

@@ -8,6 +8,7 @@ public class Main {
         Course course = new Course("blowToPine", 5);
         Course course1 = new Course("Huk", 8);
         Course course2 = new Course("Jag", 9);
+        Course course3 = new Course("Jon", 7);
         Team team = new Team("Sergey", 25, 8);
         Team team1 = new Team("Aleksey", 33, 4);
         Team team2 = new Team("Lol", 88, 12);

@@ -1,4 +1,4 @@
-package ru.java.java_core;
+package ru.java.TeamChallenge;
 
 public class Jumping extends Obstacle {
     public Jumping(int difficultly){

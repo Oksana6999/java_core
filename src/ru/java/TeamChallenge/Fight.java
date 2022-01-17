@@ -1,4 +1,4 @@
-package ru.java.java_core;
+package ru.java.TeamChallenge;
 
 public class Fight extends Obstacle {
     public Fight(int difficultly) {

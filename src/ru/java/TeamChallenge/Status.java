@@ -1,4 +1,4 @@
-package ru.java.java_core;
+package ru.java.TeamChallenge;
 
 public enum Status {
     PassedDistance, NoPassedDistance

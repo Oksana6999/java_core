@@ -1,6 +1,5 @@
 package ru.java.java_core;
 
-import java.util.concurrent.Callable;
 
 public class Main {
 

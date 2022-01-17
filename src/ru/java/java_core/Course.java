@@ -1,18 +1,20 @@
 package ru.java.java_core;
 
 public class Course {
-    public static String name;
-    public static int difficult;
+    private Obstacle[] obstacles;
 
-    public Course(String name, int difficult) {
-        this.name = name;
-        this.difficult = difficult;
+    public Course(Obstacle... obstacles) {
+        this.obstacles = obstacles;
     }
 
-    public static void doIt(Team[] team) {
-        if (difficult < Team.power) {
-            System.out.println("Sportsmen " + name + " is win.");
+    public void doIt(Team team) {
+        for (Sportsmen member: team.getMembers()) {
+            for (Obstacle obs :obstacles) {
+                obs.goChallenge(member);
+                if (member.getStatus()== Status.NoPassedDistance){
+                    break;
+                }
+            }
         }
-        if (difficult > Team.power) System.out.println("Sportsmen " + name + " is lose.");
     }
 }
